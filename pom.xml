@@ -90,6 +90,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>guardx-auth</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
