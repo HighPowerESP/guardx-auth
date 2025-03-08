@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: guardx-auth
-          image: guardx-auth:1.0
+          image: highpoweresp/guardx-auth:${DOCKER_IMAGE_TAG} 
           ports:
             - containerPort: 8081
           env:
